@@ -1,0 +1,22 @@
+{
+    "name": "wollkey/otus-package",
+    "description": "Simple package for otus homework",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Wollkey\\OtusPackage\\": "src/"
+        },
+        "files": [
+            "src/Adder.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Alisher Tashmatov",
+            "email": "pirojok167@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "8.2"
+    }
+}
